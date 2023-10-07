@@ -1,0 +1,341 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/ellipse-9-bg.png
+    - assets/page-1/images/ellipse-9-bg-fEo.png
+    - assets/page-1/images/rectangle-38-bg.png
+    - assets/page-1/images/ellipse-8-bg.png
+    - assets/page-1/images/ellipse-9-bg-tPR.png
+    - assets/page-1/images/ellipse-9-bg-ye7.png
+    - assets/page-1/images/subtract-qeF.png
+    - assets/page-1/images/appicon-close.png
+    - assets/page-1/images/ellipse-9-bg-vp7.png
+    - assets/page-1/images/rectangle-37-bg.png
+    - assets/page-1/images/rectangle-138.png
+    - assets/page-1/images/rectangle-40.png
+    - assets/page-1/images/ellipse-9-bg-Gwq.png
+    - assets/page-1/images/ellipse-9-bg-MQb.png
+    - assets/page-1/images/rectangle-39.png
+    - assets/page-1/images/ellipse-9-bg-G7Z.png
+    - assets/page-1/images/rectangle-36-bg.png
+    - assets/page-1/images/rectangle-38-bg-aP1.png
+    - assets/page-1/images/rectangle-36-bg-PAf.png
+    - assets/page-1/images/rectangle-36-bg-8FH.png
+    - assets/page-1/images/rectangle-83-bg.png
+    - assets/page-1/images/rectangle-39-EXy.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/ellipse-9-bg-rpo.png
+    - assets/page-1/images/rectangle-38-bg-UNK.png
+    - assets/page-1/images/rectangle-36-bg-H4B.png
+    - assets/page-1/images/ellipse-9-bg-ssM.png
+    - assets/page-1/images/rectangle-41.png
+    - assets/page-1/images/rectangle-40-bQj.png
+    - assets/page-1/images/rectangle-40-vzb.png
+    - assets/page-1/images/notch.png
+    - assets/page-1/images/rectangle-41-M3d.png
+    - assets/page-1/images/vector-jnF.png
+    - assets/page-1/images/rectangle-37-bg-nYo.png
+    - assets/page-1/images/ellipse-9-bg-ico.png
+    - assets/page-1/images/ellipse-6-bg.png
+    - assets/page-1/images/rectangle-38-bg-Bxb.png
+    - assets/page-1/images/group-1962.png
+    - assets/page-1/images/rectangle-37-bg-SvK.png
+    - assets/page-1/images/rectangle-138-Bd1.png
+    - assets/page-1/images/ellipse-6-bg-JNB.png
+    - assets/page-1/images/statusbar-battery.png
+    - assets/page-1/images/ellipse-9-bg-eZm.png
+    - assets/page-1/images/rectangle-83.png
+    - assets/page-1/images/ellipse-9-bg-9QK.png
+    - assets/page-1/images/rectangle-40-tco.png
+    - assets/page-1/images/vector-3rP.png
+    - assets/page-1/images/rectangle-41-xNs.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/ellipse-9-bg-r5D.png
+    - assets/page-1/images/subtract.png
+    - assets/page-1/images/rectangle-41-bwd.png
+    - assets/page-1/images/ellipse-9-bg-Yrs.png
+    - assets/page-1/images/ellipse-9-bg-66T.png
+    - assets/page-1/images/rectangle-138-Zmq.png
+    - assets/page-1/images/ellipse-9-bg-sCB.png
+    - assets/page-1/images/ellipse-8-bg-hxj.png
+    - assets/page-1/images/vector-yjD.png
+    - assets/page-1/images/appicon-close-VxT.png
+    - assets/page-1/images/group-1962-TPV.png
+    - assets/page-1/images/rectangle-37-bg-HUB.png
+    - assets/page-1/images/notch-3qy.png
+    - assets/page-1/images/vector-Puq.png
+    - assets/page-1/images/auto-group-mxzb.png
+    - assets/page-1/images/auto-group-z7zh.png
+    - assets/page-1/images/vector-bKu.png
+    - assets/page-1/images/auto-group-6eco.png
+    - assets/page-1/images/rectangle-37-bg-tZu.png
+    - assets/page-1/images/icon-mobile-signal.png
+    - assets/page-1/images/rectangle-41-UZ5.png
+    - assets/page-1/images/rectangle-39-1qq.png
+    - assets/page-1/images/rectangle-138-Hqq.png
+    - assets/page-1/images/ellipse-8.png
+    - assets/page-1/images/vector-y1q.png
+    - assets/page-1/images/appicon-open.png
+    - assets/page-1/images/subtract-m7u.png
+    - assets/page-1/images/vector-UJT.png
+    - assets/page-1/images/auto-group-zjnx.png
+    - assets/page-1/images/subtract-Z51.png
+    - assets/page-1/images/vector-nCf.png
+    - assets/page-1/images/auto-group-jtuh.png
+    - assets/page-1/images/auto-group-nxhm.png
+    - assets/page-1/images/ellipse-6-bg-qGj.png
+    - assets/page-1/images/vector-jbd.png
+    - assets/page-1/images/vector-5fV.png
+    - assets/page-1/images/appicon-open-1xT.png
+    - assets/page-1/images/ellipse-8-Lzj.png
+    - assets/page-1/images/ellipse-8-bg-uY3.png
+    - assets/page-1/images/vector-MqH.png
+    - assets/page-1/images/wifi-Uwh.png
+    - assets/page-1/images/rectangle-138-bg.png
+    - assets/page-1/images/rectangle-39-mR1.png
+    - assets/page-1/images/vector-zwH.png
+    - assets/page-1/images/rectangle-36-bg-h5Z.png
+    - assets/page-1/images/icon-mobile-signal-2dd.png
+    - assets/page-1/images/subtract-zKZ.png
+    - assets/page-1/images/vector-7dy.png
+    - assets/page-1/images/rectangle-83-bg-Ayd.png
+    - assets/page-1/images/statusbar-battery-7ro.png
+    - assets/page-1/images/rectangle-40-rZV.png
+    - assets/page-1/images/ellipse-8-bg-PpK.png
+    - assets/page-1/images/appicon-open-j7V.png
+    - assets/page-1/images/vector-VMZ.png
+    - assets/page-1/images/rectangle-38-bg-ntP.png
+    - assets/page-1/images/ellipse-9-bg-dR9.png
+    - assets/page-1/images/auto-group-euf9.png
+    - assets/page-1/images/appicon-close-Jvb.png
+    - assets/page-1/images/ellipse-9-bg-ZdZ.png
+    - assets/page-1/images/rectangle-83-Vr7.png
+    - assets/page-1/images/rectangle-41-JKh.png
+    - assets/page-1/images/rectangle-39-9PM.png
+    - assets/page-1/images/ellipse-9-bg-QT1.png
+    - assets/page-1/images/rectangle-83-bg-XhH.png
+    - assets/page-1/images/ellipse-8-bg-5ro.png
+    - assets/page-1/images/ellipse-8-bg-e87.png
+    - assets/page-1/images/wifi-Lqu.png
+    - assets/page-1/images/icon-mobile-signal-Pb5.png
+    - assets/page-1/images/ellipse-8-bg-dWo.png
+    - assets/page-1/images/group-1962-iZM.png
+    - assets/page-1/images/icon-mobile-signal-5RZ.png
+    - assets/page-1/images/notch-gvK.png
+    - assets/page-1/images/statusbar-battery-uBM.png
+    - assets/page-1/images/wifi-Bom.png
+    - assets/page-1/images/group-1962-K5q.png
+    - assets/page-1/images/notch-deo.png
+    - assets/page-1/images/statusbar-battery-gHV.png
+    - assets/page-1/images/ellipse-8-bg-po1.png
+    - assets/page-1/images/auto-group-m57d.png
+    - assets/page-1/images/dark-light-mode-.png
+    - assets/page-1/images/group-1962-hjM.png
+    - assets/page-1/images/vector-eby.png
+    - assets/page-1/images/subtract-Ph9.png
+    - assets/page-1/images/icon-mobile-signal-3aX.png
+    - assets/page-1/images/ellipse-9-bg-X4K.png
+    - assets/page-1/images/ellipse-9-bg-qcj.png
+    - assets/page-1/images/statusbar-battery-JQX.png
+    - assets/page-1/images/vector-n8f.png
+    - assets/page-1/images/notch-5yy.png
+    - assets/page-1/images/rectangle-40-M8j.png
+    - assets/page-1/images/rectangle-39-Hdq.png
+    - assets/page-1/images/vector-GvT.png
+    - assets/page-1/images/wifi-Go9.png
+    - assets/page-1/images/rectangle-138-bg-CkP.png
+    - assets/page-1/images/ellipse-9-bg-6po.png
+    - assets/page-1/images/appicon-theme.png
+    - assets/page-1/images/rectangle-37-bg-tCf.png
+    - assets/page-1/images/ellipse-9-bg-sSf.png
+    - assets/page-1/images/rectangle-36-bg-Y3Z.png
+    - assets/page-1/images/rectangle-38-bg-8f9.png
+    - assets/page-1/images/rectangle-83-Gsy.png
+    - assets/page-1/images/ellipse-8-bg-BCs.png
+    - assets/page-1/images/vector-MFm.png
+    - assets/page-1/images/appicon-theme-6C7.png
+    - assets/page-1/images/icon-mobile-signal-tP9.png
+    - assets/page-1/images/dark-light-mode--H1Z.png
+    - assets/page-1/images/ellipse-9.png
+    - assets/page-1/images/appicon-close-KNX.png
+    - assets/page-1/images/vector-zk7.png
+    - assets/page-1/images/ellipse-8-dUK.png
+    - assets/page-1/images/subtract-Edm.png
+    - assets/page-1/images/group-1962-2Nb.png
+    - assets/page-1/images/ellipse-6.png
+    - assets/page-1/images/auto-group-atcb.png
+    - assets/page-1/images/ellipse-9-YqV.png
+    - assets/page-1/images/vector-RcB.png
+    - assets/page-1/images/ellipse-9-bg-jLb.png
+    - assets/page-1/images/vector-KS7.png
+    - assets/page-1/images/statusbar-battery-CRD.png
+    - assets/page-1/images/appicon-open-35h.png
+    - assets/page-1/images/group-1962-nJB.png
+    - assets/page-1/images/notch-LQ7.png
+    - assets/page-1/images/wifi-VzX.png
+    - assets/page-1/images/vector-gmu.png
+    - assets/page-1/images/auto-group-q7mq.png
+    - assets/page-1/images/notch-k4f.png
+    - assets/page-1/images/ellipse-9-bg-N5V.png
+    - assets/page-1/images/ellipse-8-bg-nMM.png
+    - assets/page-1/images/rectangle-38-bg-rX9.png
+    - assets/page-1/images/rectangle-36-bg-ryu.png
+    - assets/page-1/images/wifi-Zm9.png
+    - assets/page-1/images/rectangle-37-bg-msD.png
+    - assets/page-1/images/statusbar-battery-Kdq.png
+    - assets/page-1/images/vector-hLj.png
+    - assets/page-1/images/subtract-Wqm.png
+    - assets/page-1/images/ellipse-8-bg-aRV.png
+    - assets/page-1/images/rectangle-41-sgb.png
+    - assets/page-1/images/ellipse-9-bg-Cym.png
+    - assets/page-1/images/rectangle-37-bg-hSf.png
+    - assets/page-1/images/rectangle-138-AmV.png
+    - assets/page-1/images/rectangle-38-bg-Jpf.png
+    - assets/page-1/images/rectangle-39-BnX.png
+    - assets/page-1/images/ellipse-8-bg-5Lb.png
+    - assets/page-1/images/rectangle-41-sbm.png
+    - assets/page-1/images/icon-mobile-signal-u3d.png
+    - assets/page-1/images/rectangle-40-swV.png
+    - assets/page-1/images/rectangle-36-bg-T3V.png
+    - assets/page-1/images/rectangle-83-v1d.png
+    - assets/page-1/images/rectangle-40-HP5.png
+    - assets/page-1/images/ellipse-9-bg-TWF.png
+    - assets/page-1/images/rectangle-138-bg-kKh.png
+    - assets/page-1/images/vector-vc7.png
+    - assets/page-1/images/notch-iET.png
+    - assets/page-1/images/ellipse-9-bg-PbD.png
+    - assets/page-1/images/rectangle-39-jbM.png
+    - assets/page-1/images/ellipse-9-bg-sBm.png
+    - assets/page-1/images/auto-group-scuv.png
+    - assets/page-1/images/statusbar-battery-SjR.png
+    - assets/page-1/images/rectangle-83-Ynj.png
+    - assets/page-1/images/icon-mobile-signal-r7R.png
+    - assets/page-1/images/vector-7Z9.png
+    - assets/page-1/images/wifi-eHD.png
+    - assets/page-1/images/vector-y7d.png
+    - assets/page-1/images/rectangle-138-bg-vHd.png
+    - assets/page-1/images/group-1962-h91.png
+    - assets/page-1/images/rectangle-38-bg-XhZ.png
+    - assets/page-1/images/ellipse-9-bg-ovX.png
+    - assets/page-1/images/subtract-FNF.png
+    - assets/page-1/images/ellipse-9-C4X.png
+    - assets/page-1/images/ellipse-9-bg-RiX.png
+    - assets/page-1/images/ellipse-8-bg-7su.png
+    - assets/page-1/images/vector-79h.png
+    - assets/page-1/images/subtract-5GB.png
+    - assets/page-1/images/ellipse-9-bg-yVH.png
+    - assets/page-1/images/rectangle-40-S9D.png
+    - assets/page-1/images/rectangle-37-bg-U7q.png
+    - assets/page-1/images/ellipse-8-bg-qLK.png
+    - assets/page-1/images/rectangle-36-bg-MjM.png
+    - assets/page-1/images/ellipse-9-bg-mW7.png
+    - assets/page-1/images/group-1962-A6K.png
+    - assets/page-1/images/vector-oAF.png
+    - assets/page-1/images/rectangle-83-iab.png
+    - assets/page-1/images/ellipse-9-rxo.png
+    - assets/page-1/images/auto-group-hd3m.png
+    - assets/page-1/images/rectangle-41-SCw.png
+    - assets/page-1/images/rectangle-39-qsd.png
+    - assets/page-1/images/rectangle-37-bg-29M.png
+    - assets/page-1/images/rectangle-36-bg-m11.png
+    - assets/page-1/images/rectangle-83-bg-nDV.png
+    - assets/page-1/images/ellipse-9-bg-FuZ.png
+    - assets/page-1/images/rectangle-138-bg-jg3.png
+    - assets/page-1/images/rectangle-40-Rxb.png
+    - assets/page-1/images/ellipse-9-bg-csH.png
+    - assets/page-1/images/rectangle-41-tSs.png
+    - assets/page-1/images/rectangle-38-bg-KXu.png
+    - assets/page-1/images/rectangle-39-r6s.png
+    - assets/page-1/images/vector-oKd.png
+    - assets/page-1/images/ellipse-8-cfH.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
