@@ -58,7 +58,7 @@ TextStyle SafeGoogleFont(
   } catch (ex) {
     return GoogleFonts.getFont(
       //"Source Sans Pro",
-      "Schyler",
+      "schuyler",
       textStyle: textStyle,
       color: color,
       backgroundColor: backgroundColor,
