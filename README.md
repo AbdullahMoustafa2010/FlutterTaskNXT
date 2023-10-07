@@ -1,7 +1,6 @@
 # test
 
-A new Flutter project.
-
+This Project is implemented by Abdalla Moustafa as a Tech. Task for NXT
 ## Getting Started
 
 This project is a starting point for a Flutter application.
